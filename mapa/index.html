@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>api-map</title>
+
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiqr5oNl7aW0Q88D99R2hTegsxiSVbfTw&callback=initMap&v=weekly"
+        defer></script>
+    <script src="script.js"></script>
+    <script src="regioes.js"></script>
+    <link href="style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <body>
+        <div id="address-result"></div>
+        <div class="">
+            <div id="map" style="height: 75vh;"></div>
+        </div>
+        <div>
+            <div class="container">
+                <div class="modelo">
+                    <div class="grid-area ">
+                        <h1></h1>
+                        <div class="regiao-img">
+                            <img src="" alt="">
+                        </div>
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" id="closeModalBtn">&times;</span>
+                                <h1></h1>
+                                <p>Conteúdo do Modal aqui.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="area-regioes"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</body>
