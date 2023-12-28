@@ -1,6 +1,7 @@
 # Projeto API-Map
 
 Descrição
+
 O projeto API-Map foi desenvolvido para fornecer informações geográficas e detalhes sobre diferentes regiões e bairros em uma cidade específica. Ele utiliza a API do Google Maps para geocodificar endereços fornecidos pelo usuário e exibir marcadores no mapa para cada endereço correspondente. Além disso, o projeto também permite visualizar informações detalhadas de bairros em diferentes regiões.
 
 Recursos Principais
